@@ -1,0 +1,265 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html {
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-color: #cccccc;
+}
+
+.regist-login-bg {
+  background: url('../assets/milan-degraeve-RMr_rhvmARg-unsplash.jpg') top left;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 0 2rem;
+  background: #bb0000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: #fdfdfd;
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  fill: white;
+}
+
+.logo {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(129deg) brightness(182%) contrast(112%);
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  padding: 16px;
+  color: #fdfdfd;
+  font-size: 1.25rem;
+  transition: 0.6s;
+
+  display: inline;
+}
+
+.navbar li:hover {
+  background-color: #111111;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.form-body {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  transition: 0.7s;
+}
+
+.form-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  padding: 3rem;
+}
+
+.form-title {
+  text-align: center;
+  color: #eeeeee;
+}
+
+.form-content-inner {
+  margin: 2rem 0 2rem 0;
+  position: relative;
+}
+
+.form-content-inner label {
+  color: #eeeeee;
+}
+
+.form-content-inner input {
+  margin: 1rem 0 1rem 0;
+  color: #dddddd;
+  min-width: 20vw;
+  background: transparent;
+  font-size: 1.25rem;
+  outline: none;
+  border: 2px solid #fcfcfc;
+  border-radius: 15px;
+  padding: 0.5rem 0.5rem;
+}
+
+.form-button {
+  text-align: center;
+}
+
+.btn-next {
+  padding: 0.55rem 0.75rem 0.5rem 0.75rem;
+  background: #dd0000;
+  color: #fefefe;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.6s;
+  font-size: 1.25rem;
+}
+
+.btn-next:hover {
+  background: #ff3333;
+  color: #ffffff;
+}
+
+.circuit-list-container {
+  margin-top: 0.65rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 3rem;
+  justify-content: space-evenly;
+}
+
+.card-img-container {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.card-container {
+  padding: 1rem;
+  width: 36vw;
+  border: 5px solid rgba(248, 0, 0, 0.4);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.323);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: saturate(80%) blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: 0.75s;
+  display: inline;
+
+  align-items: center;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  backdrop-filter: saturate(80%) blur(5px);
+  box-shadow: 2px 6px 40px #c000006b;
+}
+
+.circuit-card-layout {
+  text-align: center;
+}
+
+.circuit-card-layout img {
+  width: 10vw;
+}
+
+.circuit-card-title {
+  text-align: center;
+}
+
+.circuit-detail-title {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.circuit-title {
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.circuit-card-location {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.circuit-card-location img {
+  height: 32px;
+}
+
+.flag-icon {
+  width: 32px;
+}
+
+.track-layout {
+  width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.detail-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detail-data {
+  margin-left: 0;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.back-div {
+  text-align: center;
+}
+
+.back-div a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #010101;
+  text-decoration: none;
+}
+
+.back-to-top {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+}
+
+.span-orange {
+  text-decoration: none;
+  color: #d01500;
+}
